@@ -1,5 +1,5 @@
 """Ceci est le code principal d'autopadlet a executer dans le terminal. Veuillez vous 
-referer au readme du repositoire github pour plus d'informations (https://github.com/chalasthilo/Autopadlet)"""
+referer au readme du repositoire github pour plus d'informations """
 #Importation des Librairies et elements associes
 #Selenium
 import selenium
@@ -19,7 +19,7 @@ import csvReader
 
 #Liens vers les pages internet
 whatsapplink = "https://web.whatsapp.com/"
-padletlink = "https://padlet.com/thilochalas/bz3zhbzqmuzhd1qm"
+padletlink = "https://padlet.com/titicha/bz3zhbzqmuzhd1qm"
 
 #Nom de la discussion whatsapp
 discussionname = '"Mainaccount"'
