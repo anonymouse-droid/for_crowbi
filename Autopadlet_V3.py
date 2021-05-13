@@ -1,5 +1,5 @@
 """Ceci est le code principal d'autopadlet a executer dans le terminal. Veuillez vous 
-referer au readme du repositoire github pour plus d'informations (https://github.com/chalasthilo/Autopadlet)"""
+referer au readme du repositoire github pour plus d'informations """
 #Importation des Librairies et elements associes
 #Selenium
 import selenium
@@ -53,7 +53,7 @@ uploadlog = {}
 #CHANGES NECESSARY
 
 discussions = [{"discussionname": 'Mainaccount',
-                "padletlink": "https://padlet.com/thilochalas/bz3zhbzqmuzhd1qm",
+                "padletlink": "https://padlet.com/titicha/bz3zhbzqmuzhd1qm",
                 "categories": ["First column", "second column", "third", "fourth"],
                 "catcodes": ["C1", "C2", "C3", "C4"],
                 "catids": ["section-41504012", "section-41504018", "section-41504020", "section-41504022"],
@@ -65,7 +65,7 @@ discussions = [{"discussionname": 'Mainaccount',
                 "newcommandsfound": False},
                 
                 {"discussionname": 'Multipadlet?',
-                "padletlink": "https://padlet.com/thilochalas/multipadlet",
+                "padletlink": "https://padlet.com/titicha/multipadlet",
                 "categories": ["Column ONE", "Column TWO", "Column THREE", "Column Four"],
                 "catcodes": ["C1", "C2", "C3", "C4"],
                 "catids": ["section-51673453", "section-51673465", "section-51673480", "section-51673489"],
