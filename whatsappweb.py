@@ -165,7 +165,7 @@ def executecommands(commandtexts, commandindexes):
         elif "statut" in commandtexts[i]:
             reply = "Autopadlet est en ligne: " + time.strftime("%X %x")
         elif "codesource" in commandtexts[i]:
-            reply = "Voici le lien vers le repositoire github avec le code source: https://github.com/chalasthilo/Autopadlet"
+            reply = "Voici le lien vers le repositoire github avec le code source: https://github.com/ct"
         else:
             reply = "Cette commande n'existe pas. Envoyez !padlet aide pour avoir de l'aide."
         answers.append(reply)
@@ -187,7 +187,7 @@ def executecommands_V2(commandtexts, commandindexes, categories, catcodes, lien_
         elif "statut" in commandtexts[i]:
             reply = "Autopadlet est en ligne: " + time.strftime("%X %x")
         elif "codesource" in commandtexts[i]:
-            reply = "Voici le lien vers le repositoire github avec le code source: https://github.com/chalasthilo/Autopadlet"
+            reply = "Voici le lien vers le repositoire github avec le code source: https://gitet"
         else:
             reply = "Cette commande n'existe pas. Envoyez !padlet aide pour avoir de l'aide."
         answers.append(reply)
